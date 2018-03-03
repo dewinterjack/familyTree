@@ -8,10 +8,6 @@ Jack Dewinter.
 
 A familyTree is a tree data structure that connects objects (people) by ancestral relationships.
 
-##### 03/03/2018
-
-I will use TDD and logging techniques. 
-
 The structure will be implemented with relationships that follow a set of relationship types (which I have referred to as relations) with associated rules. Immediate relations:
 
 - Parent
@@ -45,3 +41,20 @@ General relation names will be given names by the familyTree structure.
 
 Partner relation names will need to be defined upon creation. 
 
+### 03/03/2018
+
+I will use TDD and logging techniques. 
+
+First test:
+
+Person tests:
+
+assert
+
+id is set. I want to use name as a compulsory value but some first or last names may not be known. Someone could be added with no info on them but existing. Ancestor could have brother with unknown name. 
+
+Member of Person data type (class).
+
+Next: 
+
+test database. Test size is greater than 0, people have relations unless head etc. 
