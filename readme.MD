@@ -58,3 +58,8 @@ Member of Person data type (class).
 Next: 
 
 test database. Test size is greater than 0, people have relations unless head etc. 
+
+Passed tests:
+
+person is member of Person class.
+
